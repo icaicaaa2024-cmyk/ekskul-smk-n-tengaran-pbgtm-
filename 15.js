@@ -1,22 +1,17 @@
-// MOBILE MENU
 const menuButton = document.getElementById("menuButton");
 const mobileMenu = document.getElementById("mobileMenu");
 menuButton.addEventListener("click", function () {
     mobileMenu.classList.toggle("active");
-
 });
 
-// Menutup menu ketika link diklik
 const mobileLinks = document.querySelectorAll(".mobile-menu a");
 mobileLinks.forEach(function (link) {
     link.addEventListener("click", function () {
         mobileMenu.classList.remove("active");
-
     });
 
 });
 
-// SCROLL REVEAL
 const revealElements = document.querySelectorAll(
     ".section, .activity-card, .info-card, .benefit-item, .join-content"
 );
@@ -62,7 +57,6 @@ window.addEventListener("scroll", function () {
     }
 });
 
-// MOUSE PARALLAX HERO
 const heroImage = document.querySelector(".image-frame");
 document.addEventListener("mousemove", function (event) {
     if (window.innerWidth < 900) return;

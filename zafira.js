@@ -144,7 +144,7 @@
         }
       });
 
-      // ===== SYSTEM SEARCH & FILTER EKSKUL =====
+      
       const searchInput = document.getElementById("searchEkskul");
       const filterButtons = document.querySelectorAll(".filter-pill");
       const ekskulItems = document.querySelectorAll(".ekskul-card-item");

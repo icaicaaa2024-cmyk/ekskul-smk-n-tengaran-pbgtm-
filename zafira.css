@@ -1,5 +1,4 @@
-/* ===== TEMA WARRNA UTAMA ANDA ===== */
-      :root {
+       :root {
         --blue: #2448e7;
         --lime: #b3e438;
         --dark: #1b1b1b;
@@ -28,7 +27,7 @@
         scroll-padding-top: 70px;
       }
 
-      /* ===== NAVBAR ===== */
+     
       .navbar-extravia {
         background: var(--blue);
         padding: 14px 0;
@@ -88,7 +87,6 @@
         box-shadow: 3px 3px 0px var(--dark);
       }
 
-      /* ===== HERO SECTION BARU ===== */
       .hero {
         background: var(--blue);
         padding: 80px 0 90px;
@@ -196,7 +194,6 @@
         font-weight: 500;
       }
 
-      /* Hero Visual Card (Sisi Kanan) */
       .hero-visual-container {
         position: relative;
       }
@@ -276,7 +273,7 @@
         }
       }
 
-      /* ===== STRIP MARQUEE TEKS BERJALAN ===== */
+     
       .strip-container {
         background: var(--lime);
         color: var(--dark);
@@ -311,7 +308,7 @@
         }
       }
 
-      /* ===== 3 LANGKAH DAFTAR ===== */
+     
       .steps-section {
         padding: 80px 0;
         background: #ffffff;
@@ -379,7 +376,6 @@
         line-height: 1.5;
       }
 
-      /* ===== EKSTRAKURIKULER SECTION ===== */
       .ekskul-section {
         background: var(--dark);
         padding: 90px 0;
@@ -393,7 +389,6 @@
         margin-bottom: 15px;
       }
 
-      /* Filter & Search Controls */
       .ekskul-controls {
         margin-bottom: 35px;
         display: flex;
@@ -546,7 +541,6 @@
         color: var(--dark);
       }
 
-      /* ===== FORM PENDAFTARAN SECTION (DIBAWAH EKSKUL) ===== */
       .form-section {
         padding: 90px 0;
         background: #f0f2f5;
@@ -606,7 +600,6 @@
         box-shadow: 0 0 0 3px rgba(21, 21, 216, 0.1);
       }
 
-      /* Status Validasi Real-time */
       .form-card .input-error {
         border-color: var(--red) !important;
         background-color: #fff8f8;
@@ -661,7 +654,6 @@
         box-shadow: 3px 3px 0px var(--dark);
       }
 
-      /* ===== FOOTER ===== */
       .footer {
         background: var(--dark);
         color: var(--white);
@@ -702,7 +694,7 @@
         }
         .nav-links {
           display: none;
-        } /* disederhanakan untuk mobile */
+        } 
         .ekskul-controls {
           flex-direction: column;
           align-items: stretch;
